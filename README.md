@@ -10,3 +10,7 @@ The code is structured into the following classes:
 * Network
   
 The graph model is as follows: vertices represent routers, autonomous systems are subgraphs, and a network is a graph resulting from the union of autonomous systems, thereby forming the subgraphs.
+
+Here is the default compilation mode for the code:
+
+* g++ *.cpp -o main -std=c++17 && ./main
