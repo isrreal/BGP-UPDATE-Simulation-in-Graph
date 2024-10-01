@@ -38,7 +38,8 @@ The graph model is as follows: vertices represent routers, autonomous systems ar
 
 ## Usage
 
-To compile and execute the code, you can use the following command:
+To compile code, you can use the following command:
 
 ```bash
-g++ *.cpp -o main -std=c++17 && ./main
+make
+```
