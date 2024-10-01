@@ -1,4 +1,4 @@
-CPPFLAGS=-std=c++17 -Wall -Wextra
+CPPFLAGS=-std=c++17 
 IPATH=-Iinc/
 SRC=src/
 OBJ=obj/
@@ -12,10 +12,10 @@ main.gch: $(SRC)main.cpp
 	$(CHAIN)-gcc $(CPPFLAGS) $(IPATH) -c $(SRC)main.cpp -o $(OBJ)main.gch
 
 Network.gch: $(SRC)Network.cpp
-        $(CHAIN)-gcc $(CPPFLAGS) $(IPATH) -c $(SRC)Network.cpp -o $(OBJ)Network.gch
+	$(CHAIN)-gcc $(CPPFLAGS) $(IPATH) -c $(SRC)Network.cpp -o $(OBJ)Network.gch
 
 AutonomousSystem.gch: $(SRC)AutonomousSystem.cpp
-        $(CHAIN)-gcc $(CPPFLAGS) $(IPATH) -c $(SRC)AutonomousSystem.cpp -o $(OBJ)AutonomousSystem.gch
+	$(CHAIN)-gcc $(CPPFLAGS) $(IPATH) -c $(SRC)AutonomousSystem.cpp -o $(OBJ)AutonomousSystem.gch
 
 clean:
 	rm -rf $(OBJ)*.gch
