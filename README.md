@@ -38,8 +38,13 @@ The graph model is as follows: vertices represent routers, autonomous systems ar
 
 ## Usage
 
-To compile code, you can use the following command:
+To compile this program, use the following command in your terminal:
 
 ```bash
 make
+```
+
+To clean dependecies use the following command in your terminal:
+```bash
+make clean
 ```
